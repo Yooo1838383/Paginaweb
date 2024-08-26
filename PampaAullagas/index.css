@@ -1,0 +1,192 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background: #fff;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    
+}
+
+.logo {
+    font-size: 100px;
+    font-weight: bold;
+    font-family: 'Kalnia Glaze';
+    font-weight: 800;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    font-family: 'Embed Code';
+    font-weight: 800;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.auth-buttons button {
+    margin-left: 10px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    align-items: left;
+}
+
+.auth-buttons .login {
+    background: #fff;
+    color: #333;
+    border: 2px solid #333;
+}
+
+.auth-buttons .signup {
+    background: #333;
+    color: #fff;
+}
+
+.hero {
+    position: relative;
+    height: 80vh;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    overflow: hidden;
+}
+
+.hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('Images/LOGO.jpeg') no-repeat center center/cover;
+    opacity: 0.7;
+    z-index: 1;
+}
+
+.hero-content {
+    position: relative;
+    z-index: 2;
+}
+
+
+.hero-content h1 {
+    font-size: 80px;
+    margin-bottom: 20px;
+    font-family: 'Kalnia Glaze';
+    font-weight: 1000;
+}
+
+.hero-content p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    padding: 15px 30px;
+    border: none;
+    background: #ff6f61;
+    color: #fff;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.services {
+    padding: 50px 40px;
+    text-align: center;
+}
+
+.services h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.service-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.service-card {
+    background: #fff;
+    padding: 20px;
+    margin: 10px;
+    width: 250px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.service-card img {
+    width: 50px;
+    margin-bottom: 20px;
+}
+
+.top-destinations {
+    padding: 50px 40px;
+    text-align: center;
+}
+
+.top-destinations h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.destination-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.destination-card {
+    background: #fff;
+    padding: 20px;
+    margin: 10px;
+    width: 250px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.destination-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+.weather {
+    color: rgb(97, 27, 27);
+    text-align: right;
+    margin-right: 20px;
+    font-size: 14px;
+}
+
+.weather p {
+    margin: 0;
+}
